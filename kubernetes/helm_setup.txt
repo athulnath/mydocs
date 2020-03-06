@@ -1,0 +1,7 @@
+1. install helm
+2. Create the tiller serviceaccount
+
+kubectl -n kube-system create serviceaccount tiller
+
+Next, bind the tiller serviceaccount to the cluster-admin role:
+
