@@ -7,3 +7,7 @@ Next, bind the tiller serviceaccount to the cluster-admin role:
 
 Dry run helm
  helm install myapp --dry-run --debug ./app/ 
+
+
+Add inginx ingress
+helm install my-release nginx-stable/nginx-ingress
